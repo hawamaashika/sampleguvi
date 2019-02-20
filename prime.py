@@ -4,10 +4,10 @@ if(num==2):
 elif num > 2:
   for i in range(2,num):
     if (num % i) == 0:
-      print("is not a prime number")
+      print(" Not a prime")
       break
     else:
-      print("it is prime")
+      print("yes")
       break
 else:
-  print("it is not a prime")
+  print("Not a prime")
